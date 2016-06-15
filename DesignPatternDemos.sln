@@ -11,6 +11,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Strategy", "Strategy", "{8E
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CashStrategy", "CashStrategy\CashStrategy.csproj", "{1A6B12B7-B7BD-47AA-B719-75370C2843E0}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Decorator", "Decorator", "{AC5937F8-D199-48BC-90EC-E80E2BD1A965}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DecoratorPersonWear", "DecoratorPersonWear\DecoratorPersonWear.csproj", "{03DAE1B6-6C71-4007-919E-AD89666B039E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,6 +29,10 @@ Global
 		{1A6B12B7-B7BD-47AA-B719-75370C2843E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1A6B12B7-B7BD-47AA-B719-75370C2843E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1A6B12B7-B7BD-47AA-B719-75370C2843E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03DAE1B6-6C71-4007-919E-AD89666B039E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03DAE1B6-6C71-4007-919E-AD89666B039E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03DAE1B6-6C71-4007-919E-AD89666B039E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03DAE1B6-6C71-4007-919E-AD89666B039E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -32,5 +40,6 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{71C79FF6-9BBE-492F-817B-D7EAAE3C11A7} = {C58A2C8E-13E0-47C1-9847-1086BB689B3F}
 		{1A6B12B7-B7BD-47AA-B719-75370C2843E0} = {8E8AC50D-40B6-41DD-B490-C3AB30ECA6E1}
+		{03DAE1B6-6C71-4007-919E-AD89666B039E} = {AC5937F8-D199-48BC-90EC-E80E2BD1A965}
 	EndGlobalSection
 EndGlobal
